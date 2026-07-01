@@ -1,0 +1,68 @@
+label{
+    display: block;
+    margin: 20px 0px;
+
+}
+
+.input-txt01, .input-txt02{
+    height: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+select{
+    height: 60px;
+}
+
+.input-txt01, textarea{
+    width: 400px;
+}
+
+.input-txt02 select{
+    width: 260px;
+}
+
+textarea{
+    height: 250px;
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: aliceblue;
+    font-size: 1.4em;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+}
+
+#div-form{
+    width: 500px;
+    min-height: 600px;
+    margin: 20px auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-size: 1.4em;
+}
+
+#div-btns{
+    background-color: rgb(243, 245, 244);
+    width: 100%;
+    height: 60px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
